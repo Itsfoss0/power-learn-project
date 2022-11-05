@@ -15,3 +15,4 @@ return_type function_name (parameter lists){
 Lets quickly look at how what types of functions dart supports
 
 1. __Void functions__: These sort of functions don't return any value after they are executed. They also have a ```void``` return value in the function definition body
+2. __Anonymous functions__: These sort of functions are also called anonymous functions
