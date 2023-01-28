@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Academy</title>
+</head>
+<body>
+    <h1>Forms are great</h1>
+    <!-- working with forms in html -->
+    <form action="script.js" method="get">
+        <fieldset>
+            <legend>What do you think about forms</legend>
+            <br>
+            <label for="home"> I want to home</label>
+            <input type="checkbox" name="go-home" id="home">
+            <br>
+            <label for="like-forms">This course is nice</label>
+            <input type="checkbox" name="great" id="like-forms">
+            <br>
+            <label for="tutor">The tutor is Great</label>
+            <input type="checkbox" name="tutor" id="tutor">
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fName">Fist Name:</label>
+            <br>
+            <input type="text" name="firstName" id="fName">
+            <br>
+            <label for="lName">Last Name:</label>
+            <br>
+            <input type="text" name="lastName" id="lName">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-binar">Non Binary</option>
+                <option value="secret">Rather not say</option>
+            </select>
+            <br>
+            <label for="dob">Date of birth</label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </fieldset>
+
+        <fieldset>
+            <legend>Terms of Service</legend>
+            <input type="checkbox" name="agree" id="tos">
+            <label for="tos">I have read the terms of sevice</label>
+            
+            <br>
+            <input type="checkbox" name="privacy" id="privacy">
+            <label for="privarcy">I have read the <a href="./privacy.html">Privacy Policy</a></label>
+            
+            <br>
+            <input type="submit" value="SignUp">
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback form</legend>
+            <label for="feedback">Do you have any additional information or feedback you would like to share</label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="130" rows="10"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
