@@ -11,6 +11,7 @@ body{
     margin-right: 0px;
     background-size: cover;
     opacity: 100%;
+    overflow: hidden;
 }
 
 header{
@@ -24,4 +25,11 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-right: 20%;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    right: 50%;
+    left: 50%;
+    width: 100%;
 }
