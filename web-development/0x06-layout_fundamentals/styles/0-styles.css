@@ -1,0 +1,6 @@
+nav{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+}
