@@ -10,6 +10,7 @@ void main(){
   print('$a + $b is $sum');
   print(isGreater(a, b));
   print(isNegative(num: b));
+  print(isNegative()); // can call the function without args
 }
 
 // String return value 
