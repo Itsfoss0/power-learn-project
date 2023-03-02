@@ -10,31 +10,31 @@ This repo documents my Sofware Developement training journey at [Power Learn Pro
 These are the modules covered in the curriculum
 
 [Python Programming](./python-incubation)
-- Introduction to python
-- Python Data Strucutures
-- Flow control 
+- [X] Introduction to python
+- [X] Python Data Strucutures
+- [X] Flow control 
 - Functions
 - Python Libraries
 - Django
 
 [Shell Scripting Basics](./shell-scripting)
-- CLI navigation
-- Linux Directory structure
-- Basic CLI commnads
-- Permissions
-- Bash Scripting 
+- [X] CLI navigation
+- [X] Linux Directory structure
+- [X] Basic CLI commnads
+- [X] Permissions
+- [X] Bash Scripting 
 
 [Web Technologies](./web-development)
 - Introduction to web Development
-    - Introduction to HTML
-    - HTML Links and Images
-    - HTML forms
-    - HTML input fields
-    - HTML tables
+    - [X] Introduction to HTML
+    - [X] HTML Links and Images
+    - [X] HTML forms
+    - [X] HTML input fields
+    - [X] HTML tables
 - Styling websites using CSS
-    - CSS selectors
-    - Padding, Margin and Opacity
-    - The Box model
+    - [X] CSS selectors
+    - [X] Padding, Margin and Opacity
+    - [X] The Box model
     - Flexbox
 - Introduction to Javascript
     - Javascript Events, eventlisteners and DOM
@@ -43,26 +43,33 @@ These are the modules covered in the curriculum
     - Functions in Javascript
 
 [Dart with Flutter](./hello-dart)
-- Introduction to Dart
-- Dart Datatypes
+- [X] Introduction to Dart
+- [X] Dart Datatypes
 - Control flow and functions in Dart
 - Object Oriented Programming
 
 [Databases](./databases_basics)
-- Database Systems
-- Data VS information
-- Entities and attributes
-- Data modelling
-- Relationships
-- Introduction to SQL
-- Working with SQL 
-    - Creating tables
-    - Joining tables
-    - Grouping Data
-    - Filtering Data
-    - Conditional statements
-    - Aggregate functions
-    - Set operations
+- [X] Database Systems
+- [X] Data VS information
+- [X] Entities and attributes
+- [X] Data modelling
+- [X] Relationships
+- [X] Introduction to SQL
+- [X] Working with SQL 
+
+    ✅  Creating tables
+
+    ✅  Joining tables
+
+    ✅  Grouping Data
+
+    ✅  Filtering Data
+
+    ✅  Conditional statements
+
+    ✅  Aggregate functions
+
+    ✅  Set operations
 
 
 ## Projects
