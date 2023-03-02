@@ -13,9 +13,9 @@ These are the modules covered in the curriculum
 - [X] Introduction to python
 - [X] Python Data Strucutures
 - [X] Flow control 
-- Functions
-- Python Libraries
-- Django
+- [ ] Functions
+- [ ] Python Libraries
+- [ ] Django
 
 [Shell Scripting Basics](./shell-scripting)
 - [X] CLI navigation
