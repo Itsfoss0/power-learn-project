@@ -35,18 +35,18 @@ These are the modules covered in the curriculum
     - [X] CSS selectors
     - [X] Padding, Margin and Opacity
     - [X] The Box model
-    - Flexbox
+    - [ ] Flexbox
 - Introduction to Javascript
-    - Javascript Events, eventlisteners and DOM
-    - Control flow in Javascript
-    - Loops
-    - Functions in Javascript
+    - [ ] Javascript Events, eventlisteners and DOM
+    - [ ] Control flow in Javascript
+    - [ ] Loops
+    - [ ] Functions in Javascript
 
 [Dart with Flutter](./hello-dart)
 - [X] Introduction to Dart
 - [X] Dart Datatypes
-- Control flow and functions in Dart
-- Object Oriented Programming
+- [ ] Control flow and functions in Dart
+- [ ] Object Oriented Programming
 
 [Databases](./databases_basics)
 - [X] Database Systems
@@ -73,4 +73,4 @@ These are the modules covered in the curriculum
 
 
 ## Projects
-Coming soon!!
+Coming soon!!!
