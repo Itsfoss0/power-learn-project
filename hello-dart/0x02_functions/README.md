@@ -31,3 +31,9 @@ var add = (int a, int b){
 };
 ```
 3. __Arrow functions__: Just as the name suggest, these are arrow functions
+
+Here is the general syntax 
+```
+<return type> <function> (params) => {
+    //function logic
+};
