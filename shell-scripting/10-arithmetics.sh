@@ -4,4 +4,4 @@
 echo -n "Enter a valid expression: ";
 read -r expression
 
-echo "$expression" | bc -l;
+printf "%.3f \n" $(echo "$expression" | bc -l);
