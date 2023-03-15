@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
     <title>PLP Academy</title>
 </head>
-<body bgcolor="aqua"">
-    <h1>Forms are great</h1>
+<body>
+    <header>
+        
+    </header>
     <!-- working with forms in html -->
-    <form action="script.js" method="get">
+    <form  method="get">
         <fieldset>
             <legend>What do you think about forms</legend>
             <br>
-            <label for="home"> I want to home</label>
             <input type="checkbox" name="go-home" id="home">
+            <label for="home"> I want to home</label>
             <br>
-            <label for="like-forms">This course is nice</label>
             <input type="checkbox" name="great" id="like-forms">
+            <label for="like-forms">This course is nice</label>
             <br>
-            <label for="tutor">The tutor is Great</label>
             <input type="checkbox" name="tutor" id="tutor">
+            <label for="tutor">The tutor is Great</label>
             <br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Clear">
         </fieldset>
 
         <fieldset>
@@ -47,12 +49,10 @@
                 <option value="non-binar">Non Binary</option>
                 <option value="secret">Rather not say</option>
             </select>
-            <br>
+            <br><br>
             <label for="dob">Date of birth</label>
             <input type="date" name="dob" id="dob">
             <br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Clear">
         </fieldset>
 
         <fieldset>
@@ -67,13 +67,19 @@
             <br>
             <input type="submit" value="SignUp">
         </fieldset>
-
-        <fieldset>
-            <legend>Feedback form</legend>
-            <label for="feedback">Do you have any additional information or feedback you would like to share</label>
-            <br>
-            <textarea name="feedback" id="feedback" cols="130" rows="10"></textarea>
-        </fieldset>
+        <div class="feedback">
+            <fieldset>
+                <legend>Feedback form</legend>
+                <label for="feedback">Do you have any additional information or feedback you would like to share</label>
+                <br>
+                <textarea name="feedback" id="feedback" cols="130" rows="10"></textarea>
+            </fieldset>
+        </div>
+       
     </form>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>
