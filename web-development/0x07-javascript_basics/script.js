@@ -1,18 +1,16 @@
-const mybtn = document.getElementById('button1');
-const timesClicked = document.getElementById('clicked');
+let totalVotes = 0;
+const votesContent = document.getElementById('votes');
+const upvoteButton = document.getElementById('upvote');
+const downvoteButton = document.getElementById('downvote');
 
-console.log(mybtn.innerText);
-console.log(timesClicked.innerText)
+console.log(votesContent.innerHTML);
 
-let times = 0;
+upvoteButton.addEventListener('click', () => {
+  totalVotes += 1;
+  votesContent.textContent = `${totalVotes} Votes`;
+});
 
-mybtn.addEventListener("click", () => {
-    
-    if (times >= 100) {
-        alert('Hey, I\'m tired man, stop pocking me!, lets start again');
-        times = 0;
-    } else {
-        timesClicked.textContent = ` Button clicked  ${times} times`;
-        times += 1;
-    }
+downvoteButton.addEventListener('click', () => {
+  totalVotes -= 1;
+  votesContent.textContent = `${totalVotes} Votes`;
 });
