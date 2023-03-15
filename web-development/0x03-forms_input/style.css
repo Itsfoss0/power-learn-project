@@ -10,3 +10,10 @@ body{
 .feedback{
     display: none;
 }
+
+#submitbutton{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    position: relative;
+    left: 43%;
+}
