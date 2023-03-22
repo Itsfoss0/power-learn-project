@@ -5,7 +5,7 @@ Module to determine a large power
 """
 
 
-def large_power(base, exponent) -> bool:
+def large_power(base: int, exponent: int) -> bool:
     """
     determine if base to power exponent > 5000
     Args:
