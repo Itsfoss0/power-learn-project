@@ -1,4 +1,3 @@
-![sql-logo](https://cdn-icons-png.flaticon.com/512/4248/4248443.png)
 
 ##  Managing Users in MySQL
 - Creating Users
