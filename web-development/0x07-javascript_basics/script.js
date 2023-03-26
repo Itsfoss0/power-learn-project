@@ -13,12 +13,13 @@ upvoteButton.addEventListener('click', () => {
   if (question.textContent !== originalQuestion) {
     question.textContent = originalQuestion;
   }
-});
-
+}
+);
 downvoteButton.addEventListener('click', () => {
   totalVotes -= 1;
   if (totalVotes < 0) {
     question.textContent = 'Question downvoted to hell !!';
   }
   votesContent.textContent = `${totalVotes} Votes`;
-});
+}
+);
