@@ -1,6 +1,51 @@
-nav{
-    display: flex;
+body{
+    margin: 0%;
+    padding: 0%;
 }
-nav ul li{
-    list-style-type: none;
+
+.__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.guest-oses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guest1{
+    background-color: green;
+    width: 140px;
+    color: azure;
+    height: 140px;
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.guest2{
+    background-color: yellow;
+    width: 140px;
+    color: azure;
+    height: 140px;
+    font-size: 2rem;
+    text-align: center;
+    margin-right: 20px;
+}
+.guest3{
+    background-color: blue;
+    width: 140px;
+    color: azure;
+    height: 140px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hypervisor{
+    display: flex;
+    width: 240px;
+    font-size: 2rem;
 }
