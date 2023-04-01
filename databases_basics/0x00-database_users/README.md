@@ -78,3 +78,52 @@ GRANT SELECT ON *.* TO `plpstudent`@`localhost` IDENTIFIED BY PASSWORD '*AF8B0FA
 └──╼ $
 ```
 From the above example, after running the revoke commands, and checking for the grants again, we see that only the SELECT privilege is left.
+
+
+### Deleting users
+In the long run, we will eventually have to delete user(s) from the database server.
+The general sytantax for the command to delete a user is 
+
+```sql
+DROP USER [IF EXISTS] 'user_name'@'host_name'
+```
+
+Before deleting any user, lets first take a run at who are the current users in the server
+```
+┌─[itsfoss@itsfoss]─[~/Desktop/PLP/databases_basics/0x00-database_users]
+└──╼ $cat 5-show_users.sql | mysql -u root -p
+Enter password: 
+User
+student_any
+itsfoss
+mariadb.sys
+mysql
+plpstudent
+root
+techie
+test_user
+user_0d_1
+user_0d_2
+┌─[itsfoss@itsfoss]─[~/Desktop/PLP/databases_basics/0x00-database_users]
+└──╼ $
+```
+Let's delete the test_user, student_any and techie  users
+
+```
+┌─[itsfoss@itsfoss]─[~/Desktop/PLP/databases_basics/0x00-database_users]
+└──╼ $cat 6-delete_users.sql  | mysql -u root -p;
+Enter password: 
+┌─[itsfoss@itsfoss]─[~/Desktop/PLP/databases_basics/0x00-database_users]
+└──╼ $cat 5-show_users.sql | mysql -u root -p;
+Enter password: 
+User
+itsfoss
+mariadb.sys
+mysql
+plpstudent
+root
+user_0d_1
+user_0d_2
+┌─[itsfoss@itsfoss]─[~/Desktop/PLP/databases_basics/0x00-database_users]
+└──╼ $
+```
