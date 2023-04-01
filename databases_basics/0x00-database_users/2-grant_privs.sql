@@ -1,2 +1,2 @@
 -- lets give our user 'plpstudent'@'localhost'  privileges
-GRANT ALL PRIVILEGES ON *.* TO 'plpstudent'@'localhost'; FLUSH PRIVILEGES;
+GRANT SELECT, DROP, CREATE, INSERT ON *.* TO 'plpstudent'@'localhost'; FLUSH PRIVILEGES;
