@@ -1,10 +1,10 @@
 
 ##  Managing Users in MySQL
-- Creating Users
-- Managing Users' Authentication 
-- Giving Privileges to Users
-- Revoking Priviledges
-- Deleting Users
+- [X] Creating Users
+- [X] Managing Users' Authentication 
+- [X] Granting Privileges to Users
+- [X] Revoking Privileges
+- [X] Deleting Users
 
 ### Creating Users
 The General syntax for creating a new users is
