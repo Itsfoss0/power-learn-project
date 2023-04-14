@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 #Read the f**king manual
-function rtfm(){
-    help $@
-}
-rtfm
+manual_page=$1
+echo $(man $manual_page) | pv -qcL 40
+if [[ $? -gt 0 ]]; then
+    help $manual_page
+fi
+
+firefox https://google.com/search?q=how+to+use+$manual_page
