@@ -14,4 +14,10 @@ In addition to its simplicity, Python is also incredibly versatile. It can be us
 
 [0x02](./0x02-control_structures): Flow control structures
 
-[0x03](./0x03-python_functions): Functions 
+[0x03](./0x03-python_functions): Functions
+
+[0x04](./0x04-oop_python): Object Oriented programming
+
+[0x05](./0x05-libraries_and_modules): Python modules and libraries
+
+[0x06](./0x06-test_driven_development): Unit testing 
