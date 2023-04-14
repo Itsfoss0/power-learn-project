@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Read the f**king manual
+function rtfm(){
+    help $@
+}
+rtfm
