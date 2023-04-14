@@ -23,6 +23,14 @@ class MyClass:
         else:
             self.__dict__[name] = value
 
+    def __delattr__(self, attr_name):
+        if attr_name in self.__dict__.keys():
+            del self.__dict__[attr_name]
+            return f"'{attr_name}' deleted"
+        else:
+            return "Cannot delete '{}', it doesn't exist".format(attr_name)
+
+    
     @classmethod
     def class_attributes(self):
         return self.__class__.__dict__.keys()
@@ -30,8 +38,12 @@ class MyClass:
 
 if __name__ == "__main__":
     object1 = MyClass(12)
+    object2 = MyClass(13)
     print(object1.__getattr__('name'))
     object1.__setattr__('name', 12)
     print(object1.__getattr__('my_id'))
     print(object1.__getattr__('name'))
+
+    print(object2.__delattr__('my_id'))
+    print(object2.__delattr__('my_id'))
     print(object1.class_attributes())
