@@ -38,4 +38,4 @@ if __name__ == "__main__":
         data = load(data_set)
 
     for word in matched_words:
-        print("{} can mean {}".format(word, data[word][0]))
+        print("'{}' can mean {}".format(word, data[word][0]))
