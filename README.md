@@ -73,4 +73,4 @@ These are the modules covered in the curriculum
 
 
 ## Projects
-Coming soon!!!
+[Python Mini Project](./python-incubation/mini_project): Find the dictionary definition of a word
