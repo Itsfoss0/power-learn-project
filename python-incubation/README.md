@@ -20,4 +20,8 @@ In addition to its simplicity, Python is also incredibly versatile. It can be us
 
 [0x05](./0x05-libraries_and_modules): Python modules and libraries
 
-[0x06](./0x06-test_driven_development): Unit testing 
+[0x06](./0x06-test_driven_development): Unit testing
+
+[0x07](./0x07-file_io): Handling files, Input and output
+
+[0x08](./0x08-django_framework): Django framework
