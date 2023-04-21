@@ -19,9 +19,17 @@ class Student:
     def __repr__(self):
         return "[Student]: {}".format(self.__dict__)
 
+
     @classmethod
-    def students(cls):
-        return "Class method called on {}".format(cls)
+    def computer_science_students(cls, name):
+        """
+        An alternative constructor to __init__
+        """
+        return cls({"name": name, "course": "CSE"})
+
+    @classmethod
+    def education_students(cls, name):
+        return cls({"name": name, "course": "EDS"})
 
     @staticmethod
     def stat_method():
@@ -31,4 +39,8 @@ class Student:
 student1 = Student({'name': "John Doe", 'age': 12, 'gender': 'male'})
 print(student1)
 print(student1.stat_method())
-print(student1.students())
+
+cs_stud = Student.computer_science_students("Jane Doe")
+ed_stud = Student.education_students("Marrisa Wiegler")
+print(cs_stud)
+print(ed_stud)
