@@ -4,6 +4,7 @@
 
 class MyClass:
     """Sample first class"""
+    _class_name = 'Myclass'
 
     def __init__(self, my_id):
         """Constructor"""
@@ -32,8 +33,8 @@ class MyClass:
 
     
     @classmethod
-    def class_attributes(self):
-        return self.__class__.__dict__.keys()
+    def class_attributes(cls):
+        return [i for i in dir(cls) if i[:1] != '_']
 
 
 if __name__ == "__main__":
