@@ -21,8 +21,14 @@ class Student:
 
     @classmethod
     def students(cls):
-        return cls.__dict__
+        return "Class method called on {}".format(cls)
+
+    @staticmethod
+    def stat_method():
+        return "Static method called"
 
 
 student1 = Student({'name': "John Doe", 'age': 12, 'gender': 'male'})
-print(Student.students())
+print(student1)
+print(student1.stat_method())
+print(student1.students())
