@@ -18,10 +18,12 @@ In addition to its simplicity, Python is also incredibly versatile. It can be us
 
 [0x04](./0x04-oop_python): Object Oriented programming
 
-[0x05](./0x05-libraries_and_modules): Python modules and libraries
+[0x05](./0x05-exceptions_and_errors): Exceptions and error handling
 
-[0x06](./0x06-test_driven_development): Unit testing
+[0x06](./0x06-libraries_modules_packages): Libraries packages and modules
 
-[0x07](./0x07-file_io): Handling files, Input and output
+[0x07](./0x07-test_driven_dev): Test driven Development
 
-[0x08](./0x08-django_framework): Django framework
+[0x08](./0x08-file_io): File IO
+
+[0x09](./0x09-django_framework): Django Framework
