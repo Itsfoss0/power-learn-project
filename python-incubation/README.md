@@ -27,3 +27,7 @@ In addition to its simplicity, Python is also incredibly versatile. It can be us
 [0x08](./0x08-file_io): File IO
 
 [0x09](./0x09-django_framework): Django Framework
+
+[0x0A](./0x0A-context_manager): Context Managers
+
+[0x0B](./0x0B-object_relational_mapper): Object relational mapping
