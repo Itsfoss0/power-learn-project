@@ -31,3 +31,5 @@ In addition to its simplicity, Python is also incredibly versatile. It can be us
 [0x0A](./0x0A-context_manager): Context Managers
 
 [0x0B](./0x0B-object_relational_mapper): Object relational mapping
+
+[0x0C](./0x0C-regular_expressions): Regular Expressions
