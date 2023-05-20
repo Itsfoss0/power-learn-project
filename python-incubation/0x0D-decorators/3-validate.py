@@ -25,4 +25,3 @@ if __name__ == "__main__":
     print(add_numbers(1, 2))
     print(add_numbers("John", 2))
     print(add_numbers(num_a=0, num_b=0))
-
