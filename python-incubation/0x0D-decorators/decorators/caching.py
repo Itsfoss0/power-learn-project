@@ -3,7 +3,7 @@
 """
 Module with decorator for caching
 results of some expensive operations
-and function calls 
+and function calls
 """
 
 from typing import Callable
@@ -21,7 +21,7 @@ def cache(function: callable) -> Callable:
     def wrapper(*args: list) -> object:
         """The wrapper function"""
         if args in cached_items.keys():
-            return {"cached":cached_items[args]}
+            return {"cached": cached_items[args]}
 
         return_value = function(*args)
         cached_items[args] = return_value
