@@ -76,3 +76,39 @@ def to_upper_case(function):
         return return_str.upper()
     
     return wrapper
+
+def validate(function):
+    """
+    Validate if the arguments passed to
+    The function are of the right type
+    And within the constraits
+    """
+
+    def wrapper(*args, **kwargs):
+        """
+        The wrapper function
+        Args:
+            You guesed it
+        Returns:
+            You guesed it too
+        """
+
+        if args:
+            for arg in args:
+                if not isinstance(arg, int):
+                    raise TypeError(f"{arg} is not an integer")
+                else:
+                    if (arg <= 0) :
+                        raise ValueError(f"{arg} must be grater than 0")
+        if kwargs:
+            for key, value in kwargs.items():
+                if not isinstance(value, int):
+                    raise TypeError(f"{key} = {value} which is not an integer")
+                else:
+                    if (value <= 0):
+                        raise ValueError(f"{value} must be greater than 0")
+        
+        results = function(*args, **kwargs)
+        return results
+
+    return wrapper
