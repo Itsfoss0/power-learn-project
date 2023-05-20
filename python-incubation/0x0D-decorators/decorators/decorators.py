@@ -54,3 +54,25 @@ def timer(function):
     
     return wrapper
 
+
+def to_upper_case(function):
+    """
+    Convert the return value of a function
+    To uppercase
+    Args:
+        function (object): The function to be called
+    Returns: returns a wrapper function ( more like a closure)
+    """
+
+    def wrapper(*args, **kwargs):
+        """
+        Wrapper: its the wrapper function innit?
+        Args:
+            args: positional arguments
+            kwargs: keyworded arguments
+        Returns: the return value of calling function
+        """
+        return_str =  function(*args, **kwargs)
+        return return_str.upper()
+    
+    return wrapper
