@@ -42,7 +42,8 @@ def timer(function):
     Returns:
         returns a wrapper function (as you might have guesed)
     """
-    
+
+    @wraps(function)
     def wrapper(*args, **kwargs):
         """The wrapper function"""
         s_time = time()
@@ -65,6 +66,7 @@ def to_upper_case(function):
     Returns: returns a wrapper function ( more like a closure)
     """
 
+    @wraps(function)
     def wrapper(*args, **kwargs):
         """
         Wrapper: its the wrapper function innit?
@@ -85,6 +87,7 @@ def validate(function):
     And within the constraits
     """
 
+    @wraps(function)
     def wrapper(*args, **kwargs):
         """
         The wrapper function
