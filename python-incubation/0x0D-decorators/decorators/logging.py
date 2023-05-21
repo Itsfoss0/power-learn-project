@@ -5,6 +5,7 @@ Module for logging decorators
 This one includes typing annotations
 """
 
+from functools import wraps
 from time import ctime
 from typing import Callable
 
@@ -22,7 +23,8 @@ def function_logger(function: Callable) -> Callable:
     Returns:
         This function returns a wrapper function (more of a closure)
     """
-
+    
+    @wraps(function)
     def wrapper(*args, **kwargs) -> object:
         """The wrapper function"""
         c_time = ctime()
