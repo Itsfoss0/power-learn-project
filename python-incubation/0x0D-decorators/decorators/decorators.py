@@ -6,6 +6,7 @@ decorator to other functions.
 For the assignments at Power Learn Project
 """
 
+from functools import wraps
 from time import time
 
 
@@ -15,7 +16,7 @@ def logger(function):
     Args:
         function: (object) the function to the called
     """
-
+    @wraps(function)
     def wrapper(*args, **kwargs):
         """ 
         The wrapper function
