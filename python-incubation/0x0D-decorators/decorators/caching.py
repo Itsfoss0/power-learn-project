@@ -6,6 +6,7 @@ results of some expensive operations
 and function calls
 """
 
+from functools import wraps
 from typing import Callable
 
 
@@ -18,6 +19,7 @@ def cache(function: callable) -> Callable:
 
     cached_items = {}
 
+    @wraps(function)
     def wrapper(*args: list) -> object:
         """The wrapper function"""
         if args in cached_items.keys():
