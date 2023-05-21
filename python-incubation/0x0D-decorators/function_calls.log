@@ -13,3 +13,7 @@ Function make_me_awesome called on Sat May 20 18:20:54 2023 with arguments: ('Ja
 Function make_me_awesome called on Sat May 20 18:20:54 2023 with arguments: ('Python', 'JavaScript', 'C', 'Docker', 'K8S', 'Bash'), {}
 Function make_me_awesome called on Sun May 21 15:39:08 2023 with arguments: ('Jane Doe', 'Kurt Weller', 'Edgar Reed', 'Remmy Briggs', 'Keaton'), {}
 Function make_me_awesome called on Sun May 21 15:39:08 2023 with arguments: ('Python', 'JavaScript', 'C', 'Docker', 'K8S', 'Bash'), {}
+Function add called on Sun May 21 20:18:18 2023 with arguments: (12, 14), {}
+Function add called on Sun May 21 20:20:07 2023 with arguments: (12, 14), {}
+Function add called on Sun May 21 20:20:13 2023 with arguments: (12, 14), {}
+Function add called on Sun May 21 20:20:24 2023 with arguments: (12, 14), {}
