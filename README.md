@@ -37,10 +37,10 @@ These are the modules covered in the curriculum
     - [X] The Box model
     - [ ] Flexbox
 - Introduction to Javascript
-    - [ ] Javascript Events, eventlisteners and DOM
-    - [ ] Control flow in Javascript
-    - [ ] Loops
-    - [ ] Functions in Javascript
+    - [X] Javascript Events, eventlisteners and DOM
+    - [X] Control flow in Javascript
+    - [X] Loops
+    - [X] Functions in Javascript
 
 [Dart with Flutter](./hello-dart)
 - [X] Introduction to Dart
