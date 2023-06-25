@@ -7,6 +7,7 @@ database resource handling context manager
 from MySQLdb import connect
 from MySQLdb.cursors import DictCursor
 
+
 class DatabaseConnection():
     """
     Database connection context manager
@@ -16,7 +17,7 @@ class DatabaseConnection():
     with the configurations passed when creating the object
     """
 
-    def __init__(self, host: str, db_name: str, db_user: str, db_passwd: str ):
+    def __init__(self, host: str, db_name: str, db_user: str, db_passwd: str):
         """
         The constructor
         Args:
@@ -37,10 +38,10 @@ class DatabaseConnection():
         Enter state for the context manager
         """
         self.db_connection = connect(
-            host = self.host,
-            user = self.db_user,
-            db = self.db_name,
-            passwd = self.db_passwd
+            host=self.host,
+            user=self.db_user,
+            db=self.db_name,
+            passwd=self.db_passwd
         )
         self.cursor = self.db_connection.cursor(cursorclass=DictCursor)
         return self.cursor
