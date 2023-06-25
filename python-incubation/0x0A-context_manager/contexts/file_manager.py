@@ -32,5 +32,5 @@ class FileManager():
                                  mode=self.o_mode, encoding="utf-8")
         return self.file_handler
 
-    def __exit__(self):
+    def __exit__(self, *exit_args):
         self.file_handler.close()
