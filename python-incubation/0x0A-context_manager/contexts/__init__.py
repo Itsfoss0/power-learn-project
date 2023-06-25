@@ -4,5 +4,5 @@
 contexts package
 """
 
-from .timing import Timer
-from .database import DatabaseConnection
+from .timing import Timer # noqa
+from .database import DatabaseConnection # noqa
