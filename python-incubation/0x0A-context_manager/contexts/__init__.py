@@ -5,3 +5,4 @@ contexts package
 """
 
 from .timing import Timer
+from .database import DatabaseConnection
