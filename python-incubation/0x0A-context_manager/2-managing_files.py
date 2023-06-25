@@ -13,3 +13,6 @@ from contexts import FileManager
 if __name__ == "__main__":
     with FileManager("hello.txt", "a") as file:
         file.write("Hi Mom!\n")
+
+    with FileManager("hello.txt", "r") as file:
+        print(file.read())
