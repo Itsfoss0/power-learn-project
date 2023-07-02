@@ -16,4 +16,4 @@ def add(first_number: int, second_number: int) -> int:
         returns an integer, result of addition of the two
     """
 
-    return (a + b)
+    return (first_number + second_number)
