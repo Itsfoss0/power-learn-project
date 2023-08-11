@@ -1,0 +1,8 @@
+2023-08-11 20:32:59,553 - __main__: WARNING -> This is a warning level log
+2023-08-11 20:32:59,554 - __main__: CRITICAL -> This is a critical level log
+2023-08-11 20:35:25,972 - root: WARNING -> This is a warning level log
+2023-08-11 20:35:25,972 - root: CRITICAL -> This is a critical level log
+2023-08-11 20:35:59,856 - root: WARNING -> This is a warning level log
+2023-08-11 20:35:59,856 - root: CRITICAL -> This is a critical level log
+2023-08-11 20:36:25,635 - root: WARNING -> This is a warning level log
+2023-08-11 20:36:25,636 - root: CRITICAL -> This is a critical level log
