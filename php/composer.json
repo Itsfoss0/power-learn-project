@@ -1,0 +1,6 @@
+{
+    "require": {
+        "psr/http-client": "^1.0",
+        "laravel/ui": "^3.4"
+    }
+}
